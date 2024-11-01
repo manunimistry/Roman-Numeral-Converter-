@@ -4,7 +4,7 @@ const result = document.getElementById("output")
 
 const checkUserInput = () =>{
     if(numberInput.value===""){
-        result.textContent = "Please enter a valid number"
+        result.textContent = "Please enter a valid number!"
     }else if(numberInput.value<1){
         result.textContent = "Please enter a number greater than or equal to 1"
     }else if(numberInput.value >= 4000){
